@@ -1,3 +1,13 @@
-function getPassword(){
-    var char = "0123456789abcdefghijklmnopqrstuvwxyz"
+function getPassword() {
+    var char = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%*()_+?><:{}[]";
+
+    var passwordLength = 16;
+    var password = '';
+
+    for (let i = 0; i < passwordLength; i++) {
+        var randonNumber = Math.floor(Math.random() * char.length);
+        password += char.substring(randonNumber, randonNumber + 1);
+    }
+    document.getElementById("password").value = password;
 }
+
