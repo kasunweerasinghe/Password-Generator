@@ -45,3 +45,23 @@ body {
                 inset -4px -4px 10px rgba(255, 255, 255, 1),
                 4px 4px 10px rgba(0, 0, 0, 0.05)
 }
+
+
+.inputBox input::placeholder{
+    letter-spacing: 0px;
+}
+
+.inputBox #btn{
+    position: relative;
+    cursor: pointer;
+    collapse: #fff;
+    background: #333;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.inputBox #btn:active{
+    background: #9c27b0;
+}
