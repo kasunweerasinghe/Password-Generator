@@ -1,4 +1,8 @@
-Link:- https://kasunweerasinghe.github.io/Password-Generator/
+# Random Password Generator
+
+
+
+🔗 GitHub Page:- https://kasunweerasinghe.github.io/Password-Generator/
 
 
 # Interface
@@ -10,3 +14,13 @@ Link:- https://kasunweerasinghe.github.io/Password-Generator/
 ![!](assets/project_ss/2.png)
 
 ![!](assets/project_ss/3.png)
+
+#languages
+
+----
+
+*HTML.
+
+*CSS.
+
+*JavaScript
