@@ -1,7 +1,7 @@
 Link:- https://kasunweerasinghe.github.io/Password-Generator/
 
 
-#uI
+#Interface
 
 ---
 
