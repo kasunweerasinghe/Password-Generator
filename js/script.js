@@ -5,9 +5,10 @@ function getPassword() {
     var password = '';
 
     for (let i = 0; i < passwordLength; i++) {
-        var randonNumber = Math.floor(Math.random() * char.length);
-        password += char.substring(randonNumber, randonNumber + 1);
+        var randomPassword = Math.floor(Math.random() * char.length);
+        password += char.substring(randomPassword, randomPassword + 1);
     }
-    document.getElementById("password").value = password;
+
+    document.getElementById('password').value = password;
 }
 
